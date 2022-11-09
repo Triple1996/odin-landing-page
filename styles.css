@@ -1,0 +1,13 @@
+#container{
+  border: 2px solid red;
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  flex: auto;
+  height: 50%;
+  width: 100%;
+  margin: 1px;
+  border: 1px solid blue;
+}
