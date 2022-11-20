@@ -57,3 +57,15 @@ html, body {
 div {
   border: 1px dashed red
 }
+#span1{
+  flex: 1;
+}
+#span2{
+  flex: 1;
+}
+#span3{
+  flex: 1;
+}
+#span4{
+  flex: 1;
+}
