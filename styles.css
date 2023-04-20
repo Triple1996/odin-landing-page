@@ -19,10 +19,15 @@ html, body {
   font-size: 24px;
   color: #F9FAF8;
   flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #header-links-container{
   display: flex;
   flex: 3;
+  justify-content: space-evenly;
+  align-items: center;
 }
  .header-link, #hero-subtext{
   color: #E5E7EB;
@@ -32,33 +37,71 @@ html, body {
   background-color: #1F2937;
   flex: 3;
   display: flex;
+  padding-left: 10%;
 }
 #hero-left, #hero-right {
   flex: 1;
 }
+#hero-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
 #hero-text{
   font-size: 48px;
   font-weight: extra-bold;
-  color: #F9FAF8
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
+#hero-subtext{
+  display: flex;
+  /* justify-content: space-evenly;
+  align-items: center;   */
+}
+#placeholder-image{
+  height: auto;
+  width: 50%;
+  border: 1px dashed blue;
+  background-color: gray;
+  color: white;
+  margin-right: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
  #main{
   flex: 3;
  }
 #main-image-span{
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
- #call-to-action{
-  flex: 3;
- }
- #footer{
-  flex: 2;
+.span-item{
+  margin-right: 1%;
+  margin-left: 1%;
 }
-div {
-  border: 1px dashed red
+.span-image{
+  border: 2px solid blue;
+  width: 100%;
+  height: 10px;
+}
+.span-subtext{
+  color: gray;
 }
 #span1{
   flex: 1;
+  height: 100%
 }
 #span2{
   flex: 1;
@@ -68,4 +111,34 @@ div {
 }
 #span4{
   flex: 1;
+}
+
+#quote-section{
+  flex: 3;
+  background-color: #E5E7EB;
+ }
+ #call-to-action{
+  flex: 3;
+ }
+ #call-banner{
+  background-color: #3882f6;
+  margin: 2%;
+  border-radius: 25px;
+ }
+ #call-text{
+  font-size: 18px;
+  color: white;
+  padding-left: 5%;
+  height: auto;
+
+ }
+
+ #footer{
+  flex: 3;
+}
+#signup{
+  background-color: #3882f6;
+}
+div {
+  border: 1px dashed red;
 }
