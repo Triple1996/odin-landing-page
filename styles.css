@@ -66,13 +66,14 @@ html, body {
 #placeholder-image{
   height: auto;
   width: 50%;
-  border: 1px dashed blue;
+  /* border: 1px dashed blue; */
   background-color: gray;
   color: white;
   margin-right: 30%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 2px;
 }
 
  #main{
@@ -95,6 +96,7 @@ html, body {
   border: 2px solid blue;
   width: 100%;
   height: 10px;
+  border-radius: 2px;
 }
 .span-subtext{
   color: gray;
@@ -134,11 +136,16 @@ html, body {
  }
 
  #footer{
-  flex: 3;
+  flex: 1;
+  background-color: #1F2937;
+}
+#footer-text{
+  color: white;
+  text-align: center;
 }
 #signup{
   background-color: #3882f6;
 }
 div {
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 }
