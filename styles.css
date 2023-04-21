@@ -119,13 +119,23 @@ html, body {
   flex: 3;
   background-color: #E5E7EB;
  }
+ #quote{
+  font: 36px light italic;
+  color: #1F2937;
+ }
+ #quote-author{
+  margin-left: 70%
+ }
  #call-to-action{
   flex: 3;
  }
  #call-banner{
   background-color: #3882f6;
-  margin: 2%;
-  border-radius: 25px;
+  display: flex;
+  /* margin: 2%; */
+  /* margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px; */
  }
  #call-text{
   font-size: 18px;
@@ -145,6 +155,17 @@ html, body {
 }
 #signup{
   background-color: #3882f6;
+}
+#footer-signup{
+  background-color: #3882f6;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+  margin-left: 20%;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+
 }
 div {
   /* border: 1px dashed red; */
